@@ -1,0 +1,14 @@
+{
+    "name": "mip-replaceImg",
+    "version": "1.0.0",
+    "description": "修改页面中的img标签为mip-img",
+    "contributors": [
+        {
+            "name": "Axl",
+            "email": "364857081@qq.com"
+        }
+    ],
+    "engines": {
+        "mip": ">=1.1.0"
+    }
+}
