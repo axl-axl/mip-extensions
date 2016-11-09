@@ -1,20 +1,32 @@
 # mip-check-device
 
-mip-meishij实现了百分点统计,收藏和菜单添加，社会化分享。
+mip-check-device 组件说明
 
 标题|内容
 ----|----
-类型|业务
-支持布局|不使用布局
-所需脚本|https://mipcache.bdstatic.com/static/v0.1/mip-meishij.js
+类型|通用
+支持布局|responsive,fixed-height,fill,container,fixed
+所需脚本|http://mipcache.bdstatic.com/static/mip-check-device/{版本号}/mip-check-device.js
 
 ## 示例
 
-### 检测设备是否为手机，不是则修改域名为电脑链接
-例如：
-
+### 基本用法
 ```html
-<mip-check-device mobileUrl='m.baidu.com' pcUrl='www.baidu.com'>
-	
+<mip-check-device mobileUrl='127.0.0.1:8000' pcUrl='www.baidu.com'>
+    自定义内容，可以嵌套其他组件
 </mip-check-device>
 ```
+
+## 属性
+
+### {属性名}
+
+说明：{说明}
+必选项：{是|否}
+类型：{类型}
+取值范围：{取值范围}
+单位：{单位}
+默认值：{默认值}
+
+## 注意事项
+

@@ -1,5 +1,6 @@
 /**
- * 如果不是手机则跳转到pc链接
+ * @file mip-check-device 组件
+ * @author
  */
 
 define(function (require) {
@@ -36,7 +37,6 @@ define(function (require) {
                  language:(navigator.browserLanguage || navigator.language).toLowerCase()
             } 
             if(bs.versions.mobile && url!='mobile'){
-
                 if(!bs.versions.android && !bs.versions.iPhone && !bs.versions.iPad){
                     current_url = window.location.href;
                     target_url = replaceAll(current_url,mobile_url,pc_url);
@@ -56,4 +56,3 @@ define(function (require) {
 
     return customElem;
 });
-
