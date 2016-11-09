@@ -1,0 +1,11 @@
+{
+    "name": "mip-check-device",
+    "version": "1.0.1",
+    "author": {
+        "name": "Axl",
+        "email": "36485781@qq.com",
+    },
+    "engines": {
+        "mip": ">=1.1.0"
+    }
+}

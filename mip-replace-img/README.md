@@ -13,7 +13,7 @@ mip-demo 组件说明
 ### 基本用法
 ```html
 <mip-demo>
-    自定义内容，可以嵌套其他组件
+    <img src="http://photo.enterdesk.com/2010-10-24/enterdesk.com-3B11711A460036C51C19F87E7064FE9D.jpg">
 </mip-demo>
 ```
 

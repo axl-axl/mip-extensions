@@ -1,5 +1,5 @@
 {
-    "name": "mip-replaceImg",
+    "name": "mip-replace-img",
     "version": "1.0.0",
     "description": "修改页面中的img标签为mip-img",
     "contributors": [
